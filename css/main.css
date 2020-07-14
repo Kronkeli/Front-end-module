@@ -20,17 +20,6 @@
     .menu-btn.close .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px); }
 
-.menu-theme-btn {
-  position: absolute;
-  z-index: 3;
-  right: 35px;
-  top: 95vh;
-  width: 15px;
-  height: 15px;
-  cursor: pointer;
-  transition: all 0.5s ease-out;
-  background-color: #fff; }
-
 .menu {
   position: fixed;
   top: 0;
