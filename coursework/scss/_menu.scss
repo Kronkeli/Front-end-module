@@ -36,19 +36,6 @@
     }
 }
 
-.menu-theme-btn {
-    position: absolute;
-    z-index: 3;
-    right: 35px;
-    top: 95vh;
-    width: 15px;
-    height: 15px;
-    cursor: pointer;
-    @include easeOut;
-    background-color: set-text-color($primary-color);
-
-}
-
 // Menu overlay
 .menu {
     position: fixed;
