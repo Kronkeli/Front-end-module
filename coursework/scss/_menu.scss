@@ -17,7 +17,7 @@
 
     // Rotate Into X With Menu Lines
     &.close {
-        transform: rotate(36000deg);
+        transform: rotate(360deg);
 
         .btn-line {
             // Line 1 - Rotate
@@ -87,8 +87,9 @@
          .portrait {
              width: 250px;
              height: 250px;
-             background: url(../img/portrait.jpeg);
-             background-position: -183px 0px;
+             background: url(../img/CV_kuva_rajattu.jpg);
+             background-size: 90%;
+             background-position: -213px 0px;
              border-radius: 50%;
              border: solid 3px $secondary-color;
          }
