@@ -7,6 +7,13 @@
     cursor: pointer;
     @include easeOut;
 
+    &:hover {
+        .btn-line {
+            background-color: $secondary-color;
+            @include easeOut();
+        }
+    }
+
     .btn-line {
         width: 28px;
         height: 3px;
