@@ -13,13 +13,17 @@
 <body id="bg-img">
 
     <header>
-        <div class="menu-btn">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-        </div>
+        <label for="toggleMenu">
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div>
+        </label>
 
-        <nav class="menu">
+        <input id='toggleMenu' type='checkbox' />
+
+        <nav class="menu-simplified">
             <div class="menu-branding">
                 <div class="portrait"></div>
             </div>
@@ -57,15 +61,24 @@
     <h2 class="sm-heading">
         Teekkari, koodari ja <span class="text-secondary">hakee töitä</span>
     </h2>
-    <h2 class="icons">
+    <!-- <h2 class="icons">
         <a href="https://www.linkedin.com/in/samu-salko-36ab90177">
             <i class="fab fa-linkedin fa-2x"></i>
         </a>
         <a href="https://github.com/Kronkeli">
             <i class="fab fa-github fa-2x"></i>
         </a>
+    </h2> -->
+    <h2 class="icons">
+        <a href="https://www.linkedin.com/in/samu-salko-36ab90177">
+            <i class="logo_linkedin">LinkedIn</i>
+        </a>
+        <a href="https://github.com/Kronkeli">
+            <i class="logo_github">Github</i>
+        </a>
     </h2>
 </main>
+
 <script src="js/main.js"></script>
 
 </html>
