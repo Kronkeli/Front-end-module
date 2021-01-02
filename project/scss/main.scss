@@ -191,6 +191,17 @@ main {
     }
 }
 
+// Flag icons
+.flag-icon {
+    position: absolute;
+    z-index: 3;
+    left: 15px;
+    top: 15px;
+    width: 15;
+    height: 15px;
+    cursor: pointer;
+}
+
 .btn-dark {
     @extend .btn;
     background: darken($primary-color, 50);

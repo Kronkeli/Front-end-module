@@ -2,7 +2,7 @@
   "name": "first",
   "version": "1.0.0",
   "description": "Responsive portfolio website",
-  "main": "index.js",
+  "main": "dist/en/index.html",
   "homepage": "https://Kronkeli.github.io/Front-End-Module",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",

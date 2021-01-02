@@ -296,6 +296,15 @@ main {
     color: set-text-color #eece1a;
     transition: all 0.5s ease-out; }
 
+.flag-icon {
+  position: absolute;
+  z-index: 3;
+  left: 15px;
+  top: 15px;
+  width: 15;
+  height: 15px;
+  cursor: pointer; }
+
 .btn-dark {
   background: black;
   color: #fff; }
